@@ -1,0 +1,71 @@
+body{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+#outer-circle{
+    background-color: magenta;           
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 5px solid black;
+    top: 10px;                                                                                            ;
+}                      
+#inner-circle{      
+    background-color: antiquewhite;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 10px solid goldenrod;
+    top: 30px;
+    display: grid;
+    place-items: center;
+    grid-gap: auto;
+}
+#outer-circle,
+#inner-circle,
+#sec-hand,
+#min-hand,
+#hour-hand,
+#circle{
+    position: absolute;
+
+}
+.numbers{
+    width: 20px;
+    height: 440px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#sec-hand{
+    width: 4px;
+    height: 180px;
+    background-color: red;
+    top: 85px
+}
+#min-hand{
+    width: 8px;
+    height: 160px;
+    background-color: green;
+    top: 105px;
+    border-radius: 5px;
+}
+#hour-hand{
+    width: 12px;
+    height: 100px;
+    background-color: blue;
+    top: 165px;
+    border-radius: 8px;
+}
+#circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    top: 255px
+}
+form{
+    position: relative;
+    top: 550px;
+}
