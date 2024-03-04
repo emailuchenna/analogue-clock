@@ -2,9 +2,12 @@ body{
     display: grid;
     place-items: center;
     position: relative;
+    background-image: url("./images/clock-image.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #outer-circle{
-    background-color: magenta;           
+    background-color: #c0c0c0;           
     width: 500px;
     height: 500px;
     border-radius: 50%;
